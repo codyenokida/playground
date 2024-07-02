@@ -1,5 +1,4 @@
 import classNames from "classnames";
-import { motion } from "framer-motion";
 import React from "react";
 import { Link } from "react-router-dom";
 
@@ -10,7 +9,7 @@ type LiProps = {
   children: React.ReactNode;
 };
 
-export default function Li({ href, id, active = false, children }: LiProps) {
+export default function Li({ href, id, children }: LiProps) {
   return (
     <Link
       to={href}

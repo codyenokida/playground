@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import { useState } from "react";
 import H1 from "./TextFields/H1";
 import Div from "./TextFields/Div";
 import A from "./TextFields/A";

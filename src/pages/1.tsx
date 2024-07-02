@@ -1,15 +1,9 @@
-import { motion, spring } from "framer-motion";
+import { motion } from "framer-motion";
 import H2 from "../components/TextFields/H2";
 import A from "../components/TextFields/A";
 import { useState } from "react";
 import classNames from "classnames";
-import {
-  FaArrowRight,
-  FaBeer,
-  FaClipboard,
-  FaCode,
-  FaInstagramSquare,
-} from "react-icons/fa";
+import { FaCode } from "react-icons/fa";
 import {
   FaDisplay,
   FaRegNoteSticky,
