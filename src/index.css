@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Overpass Mono";
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.5;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --color-midnight: #191919;
+  --color-yellow: #ffdc82;
+  --color-white: #f1f1f1;
+  --color-red: #ff8181;
+  --color-blue: #56acc7;
+  --color-orange: #c68142;
+  --color-green: #75a252;
+  --color-pink: #9d2382;
+  --color-purple: #646cff;
+
+  background-color: var(--color-midnight);
+  width: 100%;
+  height: 100vh;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
